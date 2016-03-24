@@ -1,0 +1,15 @@
+// 字型
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+//@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css); //思源黑體
+
+
+// 基本字體設定為 10px, 基本英文字型 sans-serif 中文 微軟正黑體
+html,body{
+	font-size: $font-size-base + px;
+	font-family: $font-family-english, $font-family-chinese;
+}
+
+// 輸出為 rem
+@mixin font-size($size){
+	font-size: ($size/$font-size-base) + rem;
+}
