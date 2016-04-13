@@ -1,0 +1,16 @@
+// 通用Mixin
+
+
+// Clear Both
+
+@mixin clear(){
+
+	&:after{
+		content: '';
+		display: block;
+		width: 0px;
+		height: 0px;
+		clear: both;
+	}
+
+}

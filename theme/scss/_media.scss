@@ -35,14 +35,14 @@
 	}
 }
 
-// 自訂解析度以下解析度
+// 自訂解析度 以下解析度
 @mixin rwd_down($media){
 	@media only screen and (max-width: $media + 'px') {
 		@content;
 	}
 }
 
-// 自訂解析度以上解析度
+// 自訂解析度 以上解析度
 @mixin rwd_up($media){
 	@media only screen and (min-width: $media + 'px') {
 		@content;
@@ -56,3 +56,16 @@
 	}
 }
 
+// 自訂高度 以下解析度
+@mixin rwd_height_down($media){
+	@media only screen and (max-height: $media + 'px') {
+		@content;
+	}
+}
+
+// 自訂高度 以上解析度
+@mixin rwd_height_up($media){
+	@media only screen and (min-height: $media + 'px') {
+		@content;
+	}
+}
