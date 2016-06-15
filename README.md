@@ -25,8 +25,13 @@ Main.scss <br>
 ├─ <code>_mixin</code>&nbsp;*相關 mixin 設置*<br>
 ├─ <code>_font</code>&nbsp;*字體自行設定*<br>
 ├─ <code>_img</code>&nbsp;*目前暫空 純建立檔案*<br>
+├─ <code>_hover</code>&nbsp;*Hover 效果動態*<br>
 
 ##其他備註
 
 * 之後會在增進 Grid 方面的功能
+
+##其他備註
+*  6/15 更新項目，Grid 功能擴充，media 功能擴充，Hover 效果增加
+
 
