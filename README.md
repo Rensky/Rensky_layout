@@ -18,14 +18,14 @@
 ## 資料夾結構
 
 Main.scss <br>
-├─ <code>reset</code>&nbsp;*compass 內建 reset*<br>
-├─ <code>_variables</code>&nbsp;*統一變數集合*<br>
-├─ <code>_media</code>&nbsp;*RWD 設置*<br>
-├─ <code>_grid</code>&nbsp;*grid 設置*<br>
-├─ <code>_mixin</code>&nbsp;*相關 mixin 設置*<br>
-├─ <code>_font</code>&nbsp;*字體自行設定*<br>
-├─ <code>_img</code>&nbsp;*目前暫空 純建立檔案*<br>
-├─ <code>_hover</code>&nbsp;*Hover 效果動態*<br>
+├ ─ <code>reset</code>&nbsp;*compass 內建 reset*<br>
+├ ─ <code>_variables</code>&nbsp;*統一變數集合*<br>
+├ ─ <code>_media</code>&nbsp;*RWD 設置*<br>
+├ ─ <code>_grid</code>&nbsp;*grid 設置*<br>
+├ ─ <code>_mixin</code>&nbsp;*相關 mixin 設置*<br>
+├ ─ <code>_font</code>&nbsp;*字體自行設定*<br>
+├ ─ <code>_img</code>&nbsp;*目前暫空 純建立檔案*<br>
+├ ─ <code>_hover</code>&nbsp;*Hover 效果動態*<br>
 
 ##其他備註
 
