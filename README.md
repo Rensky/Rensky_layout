@@ -30,8 +30,7 @@ Main.scss <br>
 ##其他備註
 
 * 之後會在增進 Grid 方面的功能
-
-##其他備註
-*  6/15 更新項目，Grid 功能擴充，media 功能擴充，Hover 效果增加
+* 6/15 更新項目，Grid 功能擴充，media 功能擴充，Hover 效果增加
+* 11/9 更新 font responsive 功能(詳細用法請看註解)
 
 
