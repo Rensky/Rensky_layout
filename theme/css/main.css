@@ -24,11 +24,15 @@ html, body { font-size: 10px; font-family: "Open Sans", "Microsoft JhengHei"; }
 /**************\
 * Main
 \**************/
-.img-list { border: red 1px solid; margin: 0 auto; }
-.img-list li { width: calc((100% - 0px*(4 - 1)) / 4); height: calc((100vw - 0px*(4 - 1)) / 4); margin-right: 0px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; }
-.img-list li:nth-child(4n) { margin-right: 0px; }
-.img-list li { background-color: #000000; }
-.img-list li img { -webkit-transform: scale(1); transform: scale(1); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out; }
-.img-list li:hover { background-color: #000000; }
-.img-list li:hover img { -webkit-transform: scale(0.8); transform: scale(0.8); }
-.img-list li img { width: 100%; height: 100%; }
+.no-limits { font-size: 3vw; }
+
+.limits-min { font-size: 3vw; }
+@media (max-width: 666.66667px) { .limits-min { font-size: 20px; } }
+
+.limits-min-max { font-size: 3vw; }
+@media (max-width: 666.66667px) { .limits-min-max { font-size: 20px; } }
+@media (min-width: 1000px) { .limits-min-max { font-size: 30px; } }
+
+.no-font { font-size: 50px; font-size: 5vw; }
+@media (max-width: 700px) { .no-font { font-size: 35px; } }
+@media (min-width: 3000px) { .no-font { font-size: 150px; } }
